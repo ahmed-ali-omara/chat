@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #2a23ff;
+}
+.content{
+    width: 90%;
+    margin: 5px auto;
+    height: 420px;
+    border-radius: 5px;
+    padding: 4px;
+    overflow: auto;
+    background-color: white;
+}
+.box{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+input{
+    width: 70%;
+    height: 25px;
+    border: solid 2px rgb(245, 244, 244);
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+    color: rgb(8, 8, 8) ;
+}
+button{
+  width: 25%;
+  height: 30px;
+  padding: 2px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font: 120% bold;
+}
+.mass{
+    width: 100%;
+}
+#mass{
+    background-color: #2a23ff;
+    padding: 3px;
+    border-radius: 0px 10px 10px 10px;
+    color: white;
+}
+.mass2{
+    width: 100%;
+    text-align: right;
+}
+#mass2{
+    background-color: #23cfff;
+    padding: 3px;
+    border-radius: 10px 0px 10px 10px;
+    color: rgb(10, 10, 10);
+}
+.user {
+    display: inline-flex;
+    width: 90%;
+    margin: 5px auto;
+    padding: 8px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+}
+.user img{
+border: solid 3px #2a23ff;
+border-radius: 70%;
+
+}
+.user h2{
+    margin-top:10px ;
+    color: #2a23ff;
+}
+.user a{
+    margin-top: 10px;
+    padding: 2px;
+    height: 25px;
+    background-color: rgb(0, 208, 255);
+    color: rgb(11, 8, 8);
+    text-decoration: none;
+    border-radius: 2px;
+}
